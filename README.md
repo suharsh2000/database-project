@@ -4,9 +4,9 @@ This project demonstrates a complete ETL pipeline from an OLTP system (Adventure
 
 ## 📂 Project Structure
 
-- **OLTP Source**: `AdventureWorks2014`
-- **Staging Database**: `AWN_STG_Demo`
-- **Data Warehouse**: `AWN_DW_Demo`
+- **OLTP Source**: AdventureWorks2014
+- **Staging Database**: AWN_STG_Demo
+- **Data Warehouse**: AWN_DW_Demo
 - **ETL Tool**: SSIS (SQL Server Integration Services)
 
 ## ⚙️ Technologies Used
