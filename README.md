@@ -2,14 +2,14 @@
 
 This project demonstrates a complete ETL pipeline from an OLTP system (AdventureWorks2014) to a Data Warehouse using SQL Server Integration Services (SSIS). It focuses on transforming data from Human Resources and Sales modules into a structured dimensional model using best practices in data warehousing.
 
-## 📂 Project Structure
+## Project Structure
 
 - **OLTP Source**: AdventureWorks2014
 - **Staging Database**: AWN_STG_Demo
 - **Data Warehouse**: AWN_DW_Demo
 - **ETL Tool**: SSIS (SQL Server Integration Services)
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - Microsoft SQL Server (T-SQL)
 - SSIS (Data Flow Tasks, Control Flow, Derived Columns)
@@ -19,7 +19,7 @@ This project demonstrates a complete ETL pipeline from an OLTP system (Adventure
 
 ---
 
-## 🛠 Key Features
+## Key Features
 
 - ✅ Extract, Transform, Load (ETL) processes via SSIS
 - ✅ Dimensional modeling (Fact & Dimension tables)
@@ -30,7 +30,7 @@ This project demonstrates a complete ETL pipeline from an OLTP system (Adventure
 
 ---
 
-## 📁 SSIS Package Highlights
+## SSIS Package Highlights
 
 ### Package.dtsx
 - **OLE DB Source** → `erp.Currency`
@@ -45,7 +45,7 @@ This project demonstrates a complete ETL pipeline from an OLTP system (Adventure
 
 ---
 
-## 🧪 SQL Scripts Included
+##  SQL Scripts Included
 
 - Creation scripts for:
   - `AWN_STG_Demo` and `AWN_DW_Demo` databases
@@ -59,7 +59,7 @@ This project demonstrates a complete ETL pipeline from an OLTP system (Adventure
 
 ---
 
-## 📊 Dimensional Tables (DW)
+## Dimensional Tables (DW)
 
 | Dimension | Source Table/View                  |
 |-----------|-------------------------------------|
